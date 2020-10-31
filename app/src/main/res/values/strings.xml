@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">VkCloud</string>
+    <integer name="com_vk_sdk_AppId">7642616</integer>
+
+    <string name="search">Поиск</string>
+    <string name="edit">Редактировать</string>
+    <string name="add">Добавить</string>
+    <string name="logout">Выйти</string>
+
+    <string name="auth_button">Войти</string>
+    <string name="auth_error">Авторизация завершилась неудачей, повторите попытку</string>
+
+    <string name="documents_title">Документы</string>
+    <string name="documents_description">%s · %s · %s</string>
+    <string name="documents_rename_action">Переименовать</string>
+    <string name="documents_delete_action">Удалить документ</string>
+    <string name="documents_add_action">Добавить документ</string>
+
+    <string name="albums_title">Альбомы</string>
+    <plurals name="album_count_photos">
+        <item quantity="zero">%d фотографий</item>
+        <item quantity="one">%d фотография</item>
+        <item quantity="two">%d фотографии</item>
+        <item quantity="few">%d фотографий</item>
+        <item quantity="many">%d фотографий</item>
+        <item quantity="other">%d фотографий</item>
+    </plurals>
+
+    <string name="profile_title">Профиль</string>
+    <string name="profile_connect">Подключить</string>
+    <string name="profile_connect_gb">Подключить ГБ</string>
+    <string name="profile_autouploading_photos">Автозагрузка фото</string>
+    <string name="profile_goto_vk">Перейти в VK</string>
+    <string name="profile_name">%s %s</string>
+</resources>

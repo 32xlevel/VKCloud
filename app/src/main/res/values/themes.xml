@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.VkCloud" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/vk</item>
+        <item name="colorPrimaryVariant">@color/vk</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+        <item name="colorSecondary">@color/vk</item>
+        <item name="colorSecondaryVariant">@color/vk</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+
+        <item name="colorOnSurface">@android:color/black</item>
+
+        <item name="android:statusBarColor">@android:color/white</item>
+
+        <item name="homeAsUpIndicator">@drawable/ic_back_outline_28</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_back_outline_28</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+
+    <style name="Theme.VkCloud.SplashScreen">
+        <item name="android:windowBackground">@drawable/splash_drawable</item>
+    </style>
+
+</resources>
